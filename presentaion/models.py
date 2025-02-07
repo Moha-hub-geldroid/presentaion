@@ -1,4 +1,4 @@
-from presentation import app, db, login_manager
+from presentaion import app, db, login_manager
 from flask_login import UserMixin
 
 @login_manager.user_loader
